@@ -1,4 +1,13 @@
-@import "CSS/general.css" all;
+@import "CSS/aboutme-style.css" all;
+@import "CSS/articles.css" all;
+@import "CSS/content.css" all;
+@import "CSS/dropdownmenu.css" all;
+@import "CSS/footer.css" all;
+@import "CSS/general-subpages.css" all;
+@import "CSS/header.css" all;
+@import "CSS/images.css" all;
+@import "CSS/navbar.css" all;
+@import "CSS/sidebar.css" all;
 
 /*Mobile, medium-sized screens and large screens*/
 @media (min-width:250px) { 
