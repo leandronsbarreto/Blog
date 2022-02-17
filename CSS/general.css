@@ -1,0 +1,45 @@
+@import "CSS/general.css" all;
+
+/*Mobile, medium-sized screens and large screens*/
+@media (min-width:250px) { 
+     body,html {
+        justify-content: center;
+        align-items: center; 
+        font-family: Helvetica;
+        font-style: normal;
+        font-stretch: normal;
+    }
+
+    .container {
+        display: grid;
+        margin: auto;
+        justify-content: center;
+        grid-template-columns: 100px 100px 100px 75px 75px 75px 85px 150px; /*8 columns*/
+        grid-template-rows: 180px 40px auto auto auto; /*5 rows*/
+    }
+
+    h1 {
+        color: rgb(247, 101, 125);
+        font-size: 35px;
+    }
+
+    h2 {
+        color: rgb(247, 101, 125);
+        font-size: 25px;
+    }
+
+    h3 {
+        color: rgb(224, 224, 28);
+        font-size: 20px;
+    }
+
+    a {
+        color: rgb(224, 224, 28);
+        font-size: 8px;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+}    

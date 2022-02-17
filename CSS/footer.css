@@ -1,0 +1,97 @@
+@import "CSS/footer.css" all;
+
+/*Mobile, medium-sized screens and large screens*/
+@media (min-width:250px) {
+    #five {
+        grid-area: 5/1/5/9;
+        background-color: rgb(247, 101, 125);
+        color: rgb(224, 224, 28);
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    #barone {
+        box-sizing: border-box;
+        border: 5px;
+        padding: 5px;
+    }
+
+    #invitation {
+        box-sizing: border-box;
+        border: 5px;
+        padding: 5px;
+    }
+
+    img {
+        height: 20px;
+        width: 20px;
+    };
+
+    .socialmedia {
+        display: grid;
+        grid-template-columns: 22px 22px 22px 22px;
+        grid-template-rows: 22px;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    #spotify {
+        grid-area: 1/1/1/2;
+        box-sizing: border-box;
+        border: 3px;
+        padding: 3px;
+    }
+    #facebook {
+        grid-area: 1/2/1/3;
+        box-sizing: border-box;
+        border: 3px;
+        padding: 3px;
+    }
+    #instagram {
+        grid-area: 1/3/1/4;
+        box-sizing: border-box;
+        border: 2px;
+        padding: 2px;
+    }
+    #twitter {
+        grid-area: 1/4/1/4;
+        box-sizing: border-box;
+        border: 2px;
+        padding: 2px;
+    }
+
+    .newsletter {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 20px 20px 20px;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    #item-one {
+        grid-area: 1/1/2/1;
+        box-sizing: border-box;
+        border: 2px;
+        padding: 2px;
+    }
+
+    #itme-two {
+        grid-area: 2/1/3/1;
+        box-sizing: border-box;
+        border: 2px;
+        padding: 2px;
+    }
+
+    #item-three {
+        grid-area: 3/1/4/1;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        border: 2px;
+        padding: 2px;
+    }
+}

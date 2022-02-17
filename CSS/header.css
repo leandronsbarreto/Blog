@@ -1,0 +1,17 @@
+@import "CSS/header.css" all;
+
+/*Mobile, medium-sized screens and large screens*/
+@media (min-width:250px) {
+    #one {
+        grid-area: 1/1/2/7;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(224, 224, 28);
+    }
+
+    #blogsName {
+        position: absolute;
+        align-content: center;
+        transform: translateY(-12%);
+    }
+}

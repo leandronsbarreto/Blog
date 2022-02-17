@@ -1,0 +1,57 @@
+@import "CSS/images.css" all;
+
+/*Mobile, medium-sized screens and large screens*/
+@media (min-width:250px){
+    #brokenPiano {
+        height: 180px;
+        width: 300px;
+    }
+
+    #dancer {
+        grid-area: 4/1/5/1;
+        height: 70px;
+        width: 50px;
+        position: relative;
+        transform: translateX(55px);
+    }
+
+    #danceraboutme {
+        height: 150px;
+        width: 120px;
+    }
+
+    #firstpop {
+        height: 70px;
+        width: 110px;
+    }
+    
+    #secondpop {
+        height: 70px;
+        width: 100px;
+    }
+    
+    #thirdpop {
+        height: 70px;
+        width: 120px;
+    }
+
+    #fourthpop {
+        height: 70px;
+        width: 110px;
+    }
+
+    #imagesarticlesone {
+        height: 300px;
+        width: 200px;
+    }
+    
+    #imagesarticlestwo {
+        height: 200px;
+        width: 200px;
+    }
+    
+    #imagesarticlesthree {
+        height: 200px;
+        width: 300px;
+    }
+}

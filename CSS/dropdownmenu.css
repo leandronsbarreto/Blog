@@ -1,0 +1,45 @@
+@import "CSS/dropdownmenu.css" all;
+
+/*Mobile, medium-sized screens and large screens*/
+@media (min-width:250px) {
+    .menu {
+        list-style: none;
+        float: left;
+        font-size: 13px;
+        padding-left: 0%;
+        color: rgb(224, 224, 28);
+    }
+    
+    .menu li {
+        /*Style menu items*/
+        position: relative;
+        float: left;
+    }
+    
+    .menu li a {
+        /*Style menu links*/
+        text-decoration: none;
+        padding: 3px;
+    }
+    
+    .menu li a:hover {
+        text-decoration: underline;
+    }
+    
+    .menu li ul {
+        /*Style items submenu*/
+        position: absolute;
+        background-color: rgb(247, 101, 125);
+        display: none;
+    }
+    
+    .menu li:hover ul,
+    .menu li.over ul {
+        display: block;
+    }
+    
+    .menu li ul li {
+        display: block;
+        width: 150px;
+    }
+}

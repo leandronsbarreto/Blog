@@ -1,0 +1,31 @@
+@import "CSS/articles.css" all;
+
+/*Mobile, medium-sized screens and large screens*/
+@media (min-width:250px) {
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 5px;
+    }
+
+    .text {
+        font-size: 15px;
+        color:  rgb(58, 56, 56);
+        text-align:justify;
+    }
+
+    time {
+        color: rgb(58, 56, 56);
+        font-size: 8px;
+        position: relative;
+        transform: translateX(-155px);
+    }
+    
+    .linksarticles {
+        color: rgb(247, 101, 125);
+        margin: 5px;
+    }
+}

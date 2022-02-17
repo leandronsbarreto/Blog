@@ -1,0 +1,27 @@
+@import "CSS/contact-style.css" all;
+
+/*Mobile, medium-sized screens and large screens*/
+@media (min-width:250px) {
+    #three {  /*Content*/
+        grid-area: 3/1/5/7;
+        background-color: rgb(224, 224, 28);
+        display: flex;
+	    flex-direction: column;
+	    justify-items: center;
+	    align-items: center;
+    }
+
+    #aboutme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 5px;
+    }
+
+    #textaboutme {
+        font-size: 15px;
+        color:  rgb(58, 56, 56);
+    }
+}
