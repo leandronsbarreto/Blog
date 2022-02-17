@@ -24,4 +24,10 @@
         font-size: 15px;
         color:  rgb(58, 56, 56);
     }
+
+    iframe {
+        border-radius:12px;
+        width: 100%; 
+        height: 250px;
+    }
 }
