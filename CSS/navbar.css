@@ -1,7 +1,7 @@
 @import "CSS/navbar.css" all;
 
 /*Mobile, medium-sized screens and large screens*/
-@media (min-width:250px){
+@media (min-width:900px){
     #two {
         grid-area: 2/1/3/7;
         background-color: rgb(247, 101, 125);

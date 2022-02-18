@@ -1,7 +1,7 @@
 @import "CSS/footer.css" all;
 
 /*Mobile, medium-sized screens and large screens*/
-@media (min-width:250px) {
+@media (min-width:900px) {
     #five {
         grid-area: 5/1/5/9;
         background-color: rgb(247, 101, 125);

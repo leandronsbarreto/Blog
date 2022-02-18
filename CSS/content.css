@@ -1,7 +1,7 @@
 @import "CSS/content.css" all;
 
 /*Mobile, medium-sized screens and large screens*/
-@media (min-width:250px) {
+@media (min-width:900px) {
     #three {  /*Content*/
         grid-area: 3/1/5/7;
         background-color: rgb(224, 224, 28);
